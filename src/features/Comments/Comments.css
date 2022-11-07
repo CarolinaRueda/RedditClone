@@ -1,0 +1,37 @@
+.contCommt {
+  width: 97%;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.authorCom {
+  color: #7e3f8f;
+  font-weight: bold;
+}
+
+.timeAg {
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+.contCommt:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* transform: scale(1.02); */
+}
+
+.infoComment {
+  /* width: 95%; */
+  padding-left: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contCommt p {
+  padding: 0.2rem;
+}

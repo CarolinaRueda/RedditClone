@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.searchResults {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResults p {
+  font-size: 1.1rem;
+}
+
+.searchResults span {
+  font-weight: bold;
+  color: #7e3f8f;
+}
+
+.searchResults button {
+  background-color: #7e3f8f;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  width: 40%;
+  height: 2rem;
+  border-radius: 10%;
+}
